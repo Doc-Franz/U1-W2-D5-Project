@@ -1,0 +1,144 @@
+/* Your styles here */
+
+/* GENERIC */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inline {
+  display: inline-block;
+}
+
+/* HEADER */
+
+header figure {
+  background-color: rgb(29, 32, 82);
+  padding: 2rem;
+}
+
+header nav {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: rgb(61, 64, 104);
+  border-color: transparent;
+}
+
+header nav a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN */
+
+main {
+  padding: 4rem;
+  background-color: rgb(247, 243, 243);
+}
+
+.shop {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+  background-color: rgb(255, 123, 0);
+}
+
+.holiday {
+  margin-top: 3rem;
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  color: white;
+  text-align: center;
+}
+
+main .holiday h1 {
+  padding-top: 6rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+main .holiday h5 {
+  padding-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
+.articles-card {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+main .articles-card div a {
+  display: inline-block;
+}
+
+main .articles-card div a figure {
+  padding: 0.7rem;
+}
+main header {
+  padding: 1rem;
+}
+
+.gift h3 {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.gift a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding: 3rem;
+  text-align: center;
+  color: rgb(69, 165, 165);
+}
+
+main .articles-card div a figure img {
+  border-radius: 2rem;
+}
+
+.gifting-game {
+  margin-top: 4rem;
+}
+
+main .gifting-game .gift {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+footer nav {
+  background-color: rgb(61, 64, 104);
+  border-color: transparent;
+  padding: 1.7rem;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer nav a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+}
+footer figure {
+  text-align: center;
+  background-color: rgb(29, 32, 82);
+  padding: 5rem;
+}
