@@ -83,6 +83,11 @@ main .articles-card div a {
 main .articles-card div a figure {
   padding: 0.7rem;
 }
+
+main .articles-card div a img {
+  box-shadow: 5px 5px 18px 0px rgba(171, 169, 171, 1);
+}
+
 main header {
   padding: 1rem;
 }
